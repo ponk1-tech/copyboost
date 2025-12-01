@@ -1,0 +1,130 @@
+{
+  "extName": {
+    "message": "CopyBoost"
+  },
+  "extDescription": {
+    "message": "Boost your copy workflow: copy page title, URL, selected text as Markdown, and capture screenshots."
+  },
+  "actionTitle": {
+    "message": "CopyBoost"
+  },
+
+  "ui_idle_message": {
+    "message": "What do you want to copy?"
+  },
+  "ui_idle_hint": {
+    "message": "Content will be copied to the clipboard (Markdown supported)."
+  },
+
+  "ui_btnLink_label": {
+    "message": "Title + URL"
+  },
+  "ui_btnLink_kbd": {
+    "message": "Link"
+  },
+
+  "ui_btnQuote_label": {
+    "message": "Selected text + title + URL"
+  },
+  "ui_btnQuote_kbd": {
+    "message": "Quote + Link"
+  },
+
+  "ui_btnShot_label": {
+    "message": "Capture visible area as screenshot"
+  },
+  "ui_btnShot_kbd": {
+    "message": "PNG"
+  },
+
+  "state_loading_generic": {
+    "message": "Working..."
+  },
+  "state_loading_generic_hint": {
+    "message": "Fetching information from the browser."
+  },
+
+  "state_loading_copy_link": {
+    "message": "Copying title and URL..."
+  },
+  "state_loading_copy_link_hint": {
+    "message": "Preparing Markdown link."
+  },
+
+  "state_loading_copy_quote": {
+    "message": "Copying quote + title + URL..."
+  },
+  "state_loading_copy_quote_hint": {
+    "message": "Formatting selected text as Markdown quote."
+  },
+
+  "state_loading_screenshot": {
+    "message": "Capturing screenshot..."
+  },
+  "state_loading_screenshot_hint": {
+    "message": "Taking a snapshot of the visible area."
+  },
+
+  "state_success_generic": {
+    "message": "Done."
+  },
+  "state_success_generic_hint": {
+    "message": "You can now paste it anywhere."
+  },
+
+  "state_success_copy_link": {
+    "message": "Copied title + URL."
+  },
+  "state_success_copy_link_hint": {
+    "message": "Paste it as a Markdown link."
+  },
+
+  "state_success_copy_quote": {
+    "message": "Copied quote + link."
+  },
+  "state_success_copy_quote_hint": {
+    "message": "Paste it into your notes or editor."
+  },
+
+  "state_success_screenshot": {
+    "message": "Screenshot saved."
+  },
+  "state_success_screenshot_hint": {
+    "message": "Check your browser's download folder."
+  },
+
+  "state_error_generic": {
+    "message": "An error occurred."
+  },
+  "state_error_generic_hint": {
+    "message": "Please reload the page and try again."
+  },
+
+  "state_error_no_tab": {
+    "message": "Could not get the active tab."
+  },
+  "state_error_no_tab_hint": {
+    "message": "Try clicking the extension again."
+  },
+
+  "state_error_no_selection": {
+    "message": "No text selected."
+  },
+  "state_error_no_selection_hint": {
+    "message": "Select some text on the page and try again."
+  },
+
+  "state_error_capture": {
+    "message": "Failed to capture screenshot."
+  },
+  "state_error_capture_hint": {
+    "message": "Try again or reload the page."
+  },
+
+  "state_error_save": {
+    "message": "Failed to save screenshot."
+  },
+  "state_error_save_hint": {
+    "message": "Check your browser's download settings."
+  }
+}

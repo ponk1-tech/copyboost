@@ -1,0 +1,130 @@
+{
+  "extName": {
+    "message": "CopyBoost"
+  },
+  "extDescription": {
+    "message": "タイトル・URL・選択テキストのコピーやMarkdown形式・スクリーンショットなど、ブラウザでのコピー作業を加速します。"
+  },
+  "actionTitle": {
+    "message": "CopyBoost"
+  },
+
+  "ui_idle_message": {
+    "message": "何をコピーしますか？"
+  },
+  "ui_idle_hint": {
+    "message": "Markdown形式でクリップボードに保存できます。"
+  },
+
+  "ui_btnLink_label": {
+    "message": "タイトル+URL"
+  },
+  "ui_btnLink_kbd": {
+    "message": "Link"
+  },
+
+  "ui_btnQuote_label": {
+    "message": "選択した本文+タイトル+URL"
+  },
+  "ui_btnQuote_kbd": {
+    "message": "Quote + Link"
+  },
+
+  "ui_btnShot_label": {
+    "message": "表示中の範囲をスクリーンショット"
+  },
+  "ui_btnShot_kbd": {
+    "message": "PNG"
+  },
+
+  "state_loading_generic": {
+    "message": "処理中です..."
+  },
+  "state_loading_generic_hint": {
+    "message": "ブラウザから情報を取得しています。"
+  },
+
+  "state_loading_copy_link": {
+    "message": "タイトルとURLをコピー中..."
+  },
+  "state_loading_copy_link_hint": {
+    "message": "Markdownリンクとして整形しています。"
+  },
+
+  "state_loading_copy_quote": {
+    "message": "本文＋タイトル＋URLをコピー中..."
+  },
+  "state_loading_copy_quote_hint": {
+    "message": "選択した本文を引用形式に整えています。"
+  },
+
+  "state_loading_screenshot": {
+    "message": "スクリーンショットを撮影中..."
+  },
+  "state_loading_screenshot_hint": {
+    "message": "表示中の範囲をキャプチャしています。"
+  },
+
+  "state_success_generic": {
+    "message": "完了しました。"
+  },
+  "state_success_generic_hint": {
+    "message": "そのまま好きな場所に貼り付けて使えます。"
+  },
+
+  "state_success_copy_link": {
+    "message": "タイトル+URLをコピーしました。"
+  },
+  "state_success_copy_link_hint": {
+    "message": "Markdownリンクとして貼り付けできます。"
+  },
+
+  "state_success_copy_quote": {
+    "message": "引用+リンクをコピーしました。"
+  },
+  "state_success_copy_quote_hint": {
+    "message": "メモアプリやエディタに貼り付けて使えます。"
+  },
+
+  "state_success_screenshot": {
+    "message": "スクリーンショットを保存しました。"
+  },
+  "state_success_screenshot_hint": {
+    "message": "ブラウザのダウンロードフォルダを確認してください。"
+  },
+
+  "state_error_generic": {
+    "message": "エラーが発生しました。"
+  },
+  "state_error_generic_hint": {
+    "message": "ページを再読み込みしてから再度お試しください。"
+  },
+
+  "state_error_no_tab": {
+    "message": "アクティブなタブを取得できませんでした。"
+  },
+  "state_error_no_tab_hint": {
+    "message": "もう一度拡張機能アイコンをクリックしてみてください。"
+  },
+
+  "state_error_no_selection": {
+    "message": "テキストが選択されていません。"
+  },
+  "state_error_no_selection_hint": {
+    "message": "本文をドラッグで選択してから実行してください。"
+  },
+
+  "state_error_capture": {
+    "message": "スクリーンショットの取得に失敗しました。"
+  },
+  "state_error_capture_hint": {
+    "message": "ページを再読み込みしてから再度お試しください。"
+  },
+
+  "state_error_save": {
+    "message": "スクリーンショットの保存に失敗しました。"
+  },
+  "state_error_save_hint": {
+    "message": "ブラウザのダウンロード設定を確認してください。"
+  }
+}
